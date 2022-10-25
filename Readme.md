@@ -1,5 +1,5 @@
 #Readme
 
-## lecture_1
+## Course
 
-This is an attempt to create a GitFlow 
+This is a NodeJS Course
