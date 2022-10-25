@@ -1,5 +1,5 @@
 #Readme
 
-## lecture 1
+## lecture_1
 
 This is an attempt to create a GitFlow 
