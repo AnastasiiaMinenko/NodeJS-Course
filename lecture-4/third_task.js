@@ -5,7 +5,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-rl.question("Please enter the first number: ", (firstNum) => {
+rl.question("Please enter the number: ", (firstNum) => {
   let firstNumber = Number(firstNum);
   function createBase(firstNumber) {
     let addSix = 6;

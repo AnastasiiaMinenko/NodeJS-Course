@@ -16,13 +16,9 @@ rl.question("Please enter the first number: ", (firstNum) => {
         console.log("This program can read only numbers.");
       } else {
         let myltiplyTwoNumbers = firstNumber * secondNumber;
-        console.log("Product of two numbers: " + myltiplyTwoNumbers);
-        doubleNumber(
-          "Product of two numbers and double it: " + myltiplyTwoNumbers
-        );
-        squareNumber(
-          "Product of two numbers and square it: " + myltiplyTwoNumbers
-        );
+        console.log(myltiplyTwoNumbers);
+        doubleNumber(myltiplyTwoNumbers);
+        squareNumber(myltiplyTwoNumbers);
         rl.close();
       }
 
