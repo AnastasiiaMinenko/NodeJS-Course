@@ -7,14 +7,9 @@ const rl = readline.createInterface({
 
 rl.question("Please enter the number: ", (firstNum) => {
   let firstNumber = Number(firstNum);
-  function createBase(firstNumber) {
-    let addSix = 6;
-    return function () {
-      return addSix + firstNumber;
-    };
-  }
+  const createBase = (base) => (num) => base + num;
+  let addSix = createBase(6);
+  console.log(addSix(firstNumber));
 
-  let count = createBase(firstNumber);
-  console.log(count());
   rl.close();
 });

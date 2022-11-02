@@ -29,7 +29,7 @@ rl.question("Please enter the first side of square: ", (firstSide) => {
         rl.close();
       }
       function perimeter(firstNumberSide, secondNumberSide) {
-        let perimeter = firstNumberSide + secondNumberSide;
+        let perimeter = 2 * (firstNumberSide + secondNumberSide);
         console.log(`The perimeter of this square is equal to ${perimeter}`);
       }
       function area(firstNumberSide, secondNumberSide) {
