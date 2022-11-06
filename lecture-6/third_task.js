@@ -1,7 +1,9 @@
 const arrayOfNumbers = [12, 23, 11, 0, 94];
 
-const sum = arrayOfNumbers.reduce((accumulated, currentElement) => {
-  return (accumulated += currentElement);
-}, 1337);
+let sum = 0;
+
+for (const number of arrayOfNumbers) {
+  sum += number;
+}
 
 console.log(sum);
